@@ -126,10 +126,6 @@ header .mobile {
 
 /* Sign Up Section */
 
-@media only screen and (max-width: 450px) {
-  
-}
-
 #sign-up-section {
   display: flex;
   justify-content: flex-start;
@@ -224,7 +220,8 @@ header .mobile {
   }
 
   #sign-up-cta {
-    padding: 0 5rem 2.5rem 5rem;
+    padding: 0 0 2.5rem 0;
+    margin: auto;
   }
 
   #sign-up-cta h1 {
