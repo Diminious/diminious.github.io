@@ -3,6 +3,7 @@
 html {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+  box-sizing: border-box;
 }
 
 .main-content {
@@ -107,7 +108,7 @@ header .mobile {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
+    max-width: 100%;
   }
 
   header .mobile li {
@@ -220,6 +221,10 @@ header .mobile {
     align-items: center;
     height: auto;
     width: auto;
+  }
+
+  #sign-up-cta {
+    padding: 0 5rem 2.5rem 5rem;
   }
 
   #sign-up-cta h1 {
