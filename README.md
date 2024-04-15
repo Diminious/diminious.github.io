@@ -1,5 +1,7 @@
 Access the live website: [diminious.github.io](https://diminious.github.io/index.html)
 
-Cheatsheet: [diminious.github.io/cheatsheet](https://diminious.github.io/cheatsheet.html)
+[Cheatsheet](https://diminious.github.io/webpages/challenge-cheatsheet/index.html)
 
-Style Guide: [diminious.github.io/style-guide](https://diminious.github.io/style-guide.html)
+[Style Guide](https://diminious.github.io/webpages/challenge-styleguide/index.html)
+
+[Responsive Club](https://diminious.github.io/webpages/challenge-club/index.html) 
