@@ -1,0 +1,38 @@
+body {
+    background-color: #1842A5;
+    color: white;
+    font-family: Roboto, monospace;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    padding: 0.625em;
+}
+
+a {
+    color: white;
+}
+
+li {
+    padding: 0.25em 0;
+}
+
+main {
+    padding: 2em 0;
+    margin: 0 5%;
+}
+
+@media only screen and (max-width: 780px) {
+    li {
+        text-align: center;
+        list-style: none;
+    }
+
+    ul {
+        padding: 0;
+    }
+
+}

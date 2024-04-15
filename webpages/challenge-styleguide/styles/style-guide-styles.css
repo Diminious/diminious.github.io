@@ -3,6 +3,27 @@
     src: url(BlockKie.ttf) format("truetype");
 }
 
+.mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 500px) {
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+        padding-bottom: 5px;
+    }
+}
+
+.return-home {
+    position: absolute;
+    left: 3%;
+    top: 24px;
+}
+
 header, footer {
     min-height: 100px;
     background-color: #2EDCFF;
@@ -45,7 +66,6 @@ section {
 .colour-value {
     padding: 0;
 }
-
 
 .colour-box {
     display: inline-block;
@@ -158,4 +178,10 @@ section {
 
 .style-box .subtitle {
     padding-top: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

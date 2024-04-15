@@ -2,6 +2,12 @@ html {
     font-family: "Pixelify Sans", sans-serif;
 }
 
+.return-home {
+    position: absolute;
+    top: 2em;
+    left: 5%;
+}
+
 header {
     padding: 0 10%;
     background-image: linear-gradient(#0008, #0008), url(../images/keyboard-mateo-unsplash.jpg);
@@ -174,6 +180,7 @@ footer {
 
 @media only screen and (max-width: 500px) {
     footer {
-        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
